@@ -20,6 +20,11 @@ You can install these libraries using pip:
 pip install Pillow piexif iptcinfo3
 ```
 
+or used the pinned versions to ensure compatibility:
+
+```console
+pip install -r requirements.txt
+```
 
 # Running the Script
 Before running the script, make sure you have the required files. Place the script in the same directory as the JSON file named `posts.json`.
